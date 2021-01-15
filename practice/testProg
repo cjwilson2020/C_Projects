@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+		
+	
+}
+
+typedef struct {
+	char firstname[22];
+	char lastname[22];
+	char position[22];	
+} Teammate;
+
+typedef struct{
+	int size;
+	char name;
+	Teammate roster[33];
+} Team;
+
+
